@@ -38,7 +38,7 @@ Predictor variables: 'date', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
 
 ## Data
 
-* Over 21K data entries of house sales with details on house and lot specs, price, date sold, and whether a house has views and has been renovated. 
+Over 21K data entries of house sales with details on house and lot specs, price, date sold, and whether a house has views and has been renovated. 
 
 ## Results
 
@@ -67,7 +67,7 @@ Price change based on a grade in comparison to Very Good:
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20per%20month%20sold.png)
 
 Price change based on a month in comparison to January:
-* + 4.2% March
+* +4.2% March
 * +6.1% April
 * +7.8% May
 * +9.5% June
