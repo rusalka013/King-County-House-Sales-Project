@@ -17,39 +17,39 @@ Insights for real estate agents:
 A local real estate agency in King County WA is looking to develop a web tool that would help clients to estimate the sale prices for their homes. This tool will be used as a marketing tool to engage and acquire new customers. Ideally, we would like to include variables that sellers can control such as staging, curb appeal, remodeling, fixture updates, the color of walls, etc. This will provide visibility to sellers on what investments can contribute to the price increase of their house.
 
 In addition, the agency is looking to develop an internal tool that would showcase current Housing Market trends. This tool will help their real estate agents to reach potential house sellers ahead of the competition and help their buying clients to get a better return on the investment.
-***
+
 One of the main business pain points is high competition from large established and small real estate agencies in the area. Proposed tools will differentiate the agency from the competition and lead to higher engagement and sales.
-***
+
 
 ## Data Understanding and Methods
 
 For this project we will be using data from: 
-* [IMDB](https://www.imdb.com/)
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [The Numbers](https://www.the-numbers.com/)
+* [King county house data](https://info.kingcounty.gov/assessor/esales/Glossary.aspx?type=r)
+* [Zipcode list](https://www.ciclt.net/sn/clt/capitolimpact/gw_ziplist.aspx?FIPS=53033)
 
-Variables included: movie titles, release year, genres, runtime minutes, ratings, number of votes, and gross income (domestic and foreign) made of movies from 2010 through 2020.
+
+Predictor variables: 'date', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'sqft_above', 'sqft_basement', 'yr_built', 'yr_renovated', 'zipcode', 'lat', 'long', 'sqft_living15', 'sqft_lot15', 'waterfront', 'view', 'grade', 'condition', 'city' for house sales between 2014 and 2015 for King County WA.
 
 * Using these sources we would be able to answer our questions listed above. 
-* The target variables are the top performing movie titles and genres. 
-* We used descriptive analitics, averages(mean), max, and Pearson correlation to answer questions in these four categories outlined in the Overview section. 
+* The target variable is sale price.  
+* We intend to use Multiple Linear Regression to calculate formula to predict future house sale price. 
+* We will be following CRISP-DM process for this project. 
 
 
 ## Data
 
-* Over 140K data entries for movie titles, genres, and release dates from 2010-2020. 
-* Over 72K data entries for average ratings and number of votes. 
-* Over 1,525 & 2,636 data entries for movie budgets, domestic/foreign/worldwide gross from two datasets.
+* Over 21K data entries of house sales with details on house and lot specs, price, date sold, and whether a house has views and has been renovated. 
 
+## Results
 
-## Exploratory Findings
-
-### RELEASES
-
+### Price based on condition
 ![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Release.png)
 
-For this analysis we used data of over 140,734 movies.  
-Documentary and Drama have been the most released movie genres in the past decade. 
+Price change based on condition in comparison to Average:
+* -13.8% Fair
+* +6.7% Good
+* +16% Very Good!
+ 
 
 ## POPULARITY
 ![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Popularity_mean.png)
@@ -105,25 +105,24 @@ Positive correlation between Production Budget and ROI of 0.58 suggests that inv
 
 ## Conclusions
 
-There is little positive correlation (0.16) between rating and population indicating that these two variables have to be considered independently as we did.
+Business Recommendations for customers (sellers): 
 
-There is a strong positive correlation between Domestic and Foreign Gross resulting in 47% and 53% of worldwide gross respectively. Based on two datasets, the correlation is between 0.76-0.83.
+* condition: 
+Perform maintenance and upgrades to increase price by up to 16% (from Average to Very Good).   
 
-There is also a positive correlation between Production Budget and ROI: 0.58 indicating that investing into a quality production will result in higher return.
+* grade: 
+Renovate a house to increase the price by up to 71% (ex.renovating a house from Fair to Very Good grade will increase the value by 64%). However, additional calculaltions on ROI has to be done prior to this suggestion.  
 
-After analizing outcomes in categories: Popularity and Gross Income and ROI, we do see popsitive correlation between most popular and highest in gross and ROI genres: Animation, Adventure, Sci-Fi.  
+* month: 
+Sell a house in summer to early fall months for up to 9.5% higher in price. Best months to sell are June and October.  
+ 
+* city: 
+Houses in cities south of Seattle sell for at least 20% lower compare to houses West and North. 
 
-Business Recommendations:
+Next Steps:  
+* To acquire additional feature information (such as staged or not staged, fixture updates, curb appeal, color of interior and exterior walls, etc) regarding houses sold. Adding these features to our model can further expand agent's knowledge on what suggestions to make to clients that could increase the house value. 
+* To get more recent house data through APIs (redfin API) to understand Housing Market trends in the past 20 years.   
 
-* Genre: Produce movies in genres: Animation, Adventure, & Sci-Fi. They are not only the most profitable genres, but also ranking highest in popularity.
-* Production Budget and ROI: Invest into a quality production as it leads to higher returns.
-* Gross: Release a movie in both domestic and foreign markets to get the maximum gross. Foreign gross is responsible for over half of worldwide income (~53%). 
-
-Next Steps: 
-* To analyze the trends in genres over the years. 
-* To get more recent data through APIs to see how pandemic has shaped a movie industry. 
-* To perform more in-depth analysis on ROI per genre. 
-* To look into a cast and directors whose movies are the most popular and profitable. 
 
 
 
