@@ -43,7 +43,7 @@ Predictor variables: 'date', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
 ## Results
 
 ### Price based on condition
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Release.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Condition.png)
 
 Price change based on condition in comparison to Average:
 * -13.8% Fair
@@ -51,57 +51,57 @@ Price change based on condition in comparison to Average:
 * +16% Very Good!
  
 
-## POPULARITY
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Popularity_mean.png)
+## Price based on grade
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Grade.png)
 
-For this analysis we used data of 72,480 movies.  
-Adventure, Sci-Fi, Action, and Fantasy have been the most popular movie genres in the past decade. 
+Price change based on a grade in comparison to Very Good:
++6.6% Excellent
+-7% Better
+-22.7% Good
+-38% Average
+-56.7% Low Average
+-64.4% Fair
+ 
 
-## RATING 
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Rating%20over%20100%20votes.png)
+## Price based on month: 
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20per%20month%20sold.png)
 
-For this analysis we used data of 28,506 movies with over 100 votes. 
-News, Documentary, and Biography have been the highest rated movie genres in the past decade. Their average rating is 7.1 , 7, and 6.9 respectively. 
+Price change based on a month in comparison to January:
++ 4.2% March
++6.1% April
++7.8% May
++9.5% June
++8.5% July
++ 8% August
++8.3% September
++9% October
++8.2% November
++7.9% December
+ 
 
-## CORRELATION BETWEEN RATING AND POPULARITY
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Correlation%20bw%20Rating%20and%20Popularity.png)
+## Price based on city:
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20City.png)
 
-There is a little positive correlation (0.16) between rating and population indicating that these two variables have to be considered independently. 
+Price change based on a city in comparison to Auburn:
++64.1% Bellevue
++42.3% Bothell
++35.2% Duvall
++9.7% Enumclaw
++53.7% Issaquah
++5.1% Kent
++63.5% Kirkland
++17.8% Maple Valley
++85.8% Mercer Island
++36.5% North Bend
++58.2% Redmond
++24.5% Renton
++64.7% Seattle
++46.8% Shoreline
++42.2% Snoqualmie
++18.2% Tukwila
++48.2% Woodinville
++108.6 Yarrow Point
 
-## DOMESTIC GROSS
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Domestic%20Gross.png)
-
-Animation, Adventure, and Sci-Fi are performing best financially in domestic market with at or over $100M gross.  
-
-## FOREIGN GROSS
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Foreign%20Gross.png)
-
-Animation, Adventure, Sci-Fi are performing best financially with over $150M foreign gross. 
-
-## WORLDWIDE GROSS
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Worldwide%20Gross.png)
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20Worldwide%20Gross_2nd%20dataset.png)
-
-For this analysis we used data two datasets: Box Office Mojo and The Numbers.  We are getting very similar results per genre. This is an indication that the outcome is correct. 
-Animation, Adventure, and Sci-Fi are the top three genres with over $250M worldwide gross.  
-
-## ROI
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Top%2010%20by%20ROI.png)
-
-Animation, Adventure, Sci-Fi are the most profitable genres. On average each of these  genres is responsible for around $200M in ROI. 
-
-## CORRELATION BETWEEN DOMESTIC AND FOREIGN GROSS 
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Correlation%20bw%20Domestic%20and%20Foreign%20Gross.png)
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Correlation%20bw%20Domestic%20and%20Foreign%20Gross_2nd%20dataset.png)
-
-After analyzing two dataset with financial data: The Numbers and  Box Office Mojo, 
-we  discovered that there is a strong positive correlation between domestic and foreign gross.
-Domestic gross is responsible  for 47%  of worldwide gross when Foreign gross is responsible for 53%.  
-
-## CORRELATION BETWEEN PRODUCTION BUDGET AND ROI
-![alt text](https://github.com/rusalka013/microsoft-movie-analysis/blob/main/Images/Correlation%20bw%20Production%20Budget%20and%20ROI.png)
-
-Positive correlation between Production Budget and ROI of 0.58 suggests that investing into a quality production will lead to a higher Return on Investment. 
 
 ## Conclusions
 
