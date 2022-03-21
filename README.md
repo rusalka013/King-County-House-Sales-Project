@@ -55,52 +55,52 @@ Price change based on condition in comparison to Average:
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Grade.png)
 
 Price change based on a grade in comparison to Very Good:
-+6.6% Excellent \
--7% Better
--22.7% Good
--38% Average
--56.7% Low Average
--64.4% Fair
+* +6.6% Excellent 
+* -7% Better
+* -22.7% Good
+* -38% Average
+* -56.7% Low Average
+* -64.4% Fair
  
 
 ## Price based on month: 
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20per%20month%20sold.png)
 
 Price change based on a month in comparison to January:
-+ 4.2% March
-+6.1% April
-+7.8% May
-+9.5% June
-+8.5% July
-+ 8% August
-+8.3% September
-+9% October
-+8.2% November
-+7.9% December
+* + 4.2% March
+* +6.1% April
+* +7.8% May
+* +9.5% June
+* +8.5% July
+* +8% August
+* +8.3% September
+* +9% October
+* +8.2% November
+* +7.9% December
  
 
 ## Price based on city:
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20City.png)
 
 Price change based on a city in comparison to Auburn:
-+64.1% Bellevue
-+42.3% Bothell
-+35.2% Duvall
-+9.7% Enumclaw
-+53.7% Issaquah
-+5.1% Kent
-+63.5% Kirkland
-+17.8% Maple Valley
-+85.8% Mercer Island
-+36.5% North Bend
-+58.2% Redmond
-+24.5% Renton
-+64.7% Seattle
-+46.8% Shoreline
-+42.2% Snoqualmie
-+18.2% Tukwila
-+48.2% Woodinville
-+108.6 Yarrow Point
+* +64.1% Bellevue
+* +42.3% Bothell
+* +35.2% Duvall
+* +9.7% Enumclaw
+* +53.7% Issaquah
+* +5.1% Kent
+* +63.5% Kirkland
+* +17.8% Maple Valley
+* +85.8% Mercer Island
+* +36.5% North Bend
+* +58.2% Redmond
+* +24.5% Renton
+* +64.7% Seattle
+* +46.8% Shoreline
+* +42.2% Snoqualmie
+* +18.2% Tukwila
+* +48.2% Woodinville
+* +108.6 Yarrow Point
 
 
 ## Conclusions
