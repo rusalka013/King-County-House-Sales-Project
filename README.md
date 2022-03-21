@@ -1,35 +1,25 @@
-# Microsoft Movie Analysis
+# King County House Sales Project
 
 **Authors:** Elena Burlando
 
 ## Overview
 
-The objective of this project is to analyze movie data to provide insights on movie types that have performed best in the past decade. 
+The objective of this project is to analyze housing data for King County to provide insights on variables that effect sale price and also determine if there any pricing trends that can project future growth of certain markets. 
 
 As an outcome of this analysis we are hoping to get: 
-* Releases: 
-  * Top 10 most produced genres during 2010-2020 (by entry count).
-  * Top 2 most produced genres for each year (by entry count).
-* Popularity: 
-  * Top 10 most popular movies and genres during 2010-2019 (by number of votes). 
-* Rating:
-  * Top 10 highest rated genres during 2010-2019.
-  * Top 10 highest rated movies during 2010-2019. 
-  * Correlation between ratings and number of votes. 
-* Gross Income and ROI:
-  * Movies/genres with the highest domestic gross income. 
-  * Movies/genres with the highest foreign gross income.
-  * Movies/genres with the highest worldwide gross income. 
-  * Correlation between domestic and foreign gross income.
-  * Correlation between production budget and ROI. 
-  * Movies/genres with the highest ROI (return on investment). 
+
+Insights for real estate agents: 
+ * Price drivers (predictors)
+ * Housing market trends based on city
 
 ## Business Problem
 
-Microsoft following the success of other big tech companies is considering setting up a movie studio. This project is aiming to provide valuable information to the head of Microsoft's new movie department in the areas of movies, genres, and ROI. 
+A local real estate agency in King County WA is looking to develop a web tool that would help clients to estimate the sale prices for their homes. This tool will be used as a marketing tool to engage and acquire new customers. Ideally, we would like to include variables that sellers can control such as staging, curb appeal, remodeling, fixture updates, the color of walls, etc. This will provide visibility to sellers on what investments can contribute to the price increase of their house.
 
-One of the main business pain points related to this project is lack of experince in the movie industry and using 
-data from other sources since it doesn't have any of its own. I picked the questions above as I think the answers to those would be the most beneficial when starting from scratch. They will provide high level overview of the industry and trends. 
+In addition, the agency is looking to develop an internal tool that would showcase current Housing Market trends. This tool will help their real estate agents to reach potential house sellers ahead of the competition and help their buying clients to get a better return on the investment.
+***
+One of the main business pain points is high competition from large established and small real estate agencies in the area. Proposed tools will differentiate the agency from the competition and lead to higher engagement and sales.
+***
 
 ## Data Understanding and Methods
 
