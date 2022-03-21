@@ -55,7 +55,7 @@ Price change based on condition in comparison to Average:
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Grade.png)
 
 Price change based on a grade in comparison to Very Good:
-+6.6% Excellent
++6.6% Excellent \
 -7% Better
 -22.7% Good
 -38% Average
