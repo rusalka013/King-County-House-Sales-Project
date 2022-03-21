@@ -42,6 +42,12 @@ Over 21K data entries of house sales with details on house and lot specs, price,
 
 ## Results
 
+### Price based on sqft living
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Correlation%20bw%20sqft_living%20and%20Price.png)
+
+For every 2/100 percent increase in square feet there is one percent increase in price.
+
+
 ### Price based on condition
 ![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Condition.png)
 
@@ -52,7 +58,7 @@ Price change based on condition in comparison to Average:
  
 
 ## Price based on grade
-![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Grade.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Correlation%20bw%20Grade%20and%20Price.png)
 
 Price change based on a grade in comparison to Very Good:
 * +6.6% Excellent 
