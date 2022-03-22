@@ -40,6 +40,10 @@ Predictor variables: 'date', 'bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot',
 
 Over 21K data entries of house sales with details on house and lot specs, price, date sold, and whether a house has views and has been renovated. 
 
+## Correlation between Features and Target
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Price%20and%20Features%20Correlation.png)
+
+
 ## Results
 
 ### Price based on sqft living
@@ -49,7 +53,7 @@ For every 2/100 percent increase in square feet there is one percent increase in
 
 
 ### Price based on condition
-![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20Condition.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Price%20vs%20Condition.png)
 
 Price change based on condition in comparison to Average:
 * -13.8% Fair
@@ -58,7 +62,7 @@ Price change based on condition in comparison to Average:
  
 
 ## Price based on grade
-![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Correlation%20bw%20Grade%20and%20Price.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Price%20vs%20Grade.png)
 
 Price change based on a grade in comparison to Very Good:
 * +6.6% Excellent 
@@ -70,7 +74,7 @@ Price change based on a grade in comparison to Very Good:
  
 
 ## Price based on month: 
-![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20per%20month%20sold.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Price%20vs%20Month.png)
 
 Price change based on a month in comparison to January:
 * +4.2% March
@@ -86,7 +90,7 @@ Price change based on a month in comparison to January:
  
 
 ## Price based on city:
-![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Sale%20price%20vs%20City.png)
+![alt text](https://github.com/rusalka013/King-County-House-Sales-Project/blob/main/Visuals/Price%20vs%20City.png)
 
 Price change based on a city in comparison to Auburn:
 * +64.1% Bellevue
